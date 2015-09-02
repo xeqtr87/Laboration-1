@@ -7,23 +7,23 @@
     <body>
         <h1>Här kan ni kontakta mig</h1>
          <ul>
-            <a href="../index.html"><li>Start</li></a>
-            <a href="../pages/laboration.html"><li>Laborationer</li></a>
-            <a href="../pages/presentation.html"><li>Presentation</li></a>
-            <a href="../pages/kontakt.html"><li>Kontakt</li></a>
+            <li><a href="../index.html">Start</a></li>
+            <li><a href="../pages/laboration.html">Laborationer</a></li>
+            <li><a href="../pages/presentation.html">Presentation</a></li>
+            <li><a href="../pages/kontakt.html">Kontakt</a></li>
         </ul>
         <form action="http://webproduction.standout.se/form.php" method="post">
             <fieldset>
                 <legend>Fråga</legend>
                 <p>Ärendetyp</p>
                 <select name="errand">
-                    <option value="v1">Fråga</option>
-                    <option value="v2">Avsluta</option>
-                    <option value="v3">Reklamera</option>
+                    <option value="fråga">Fråga</option>
+                    <option value="avsluta">Avsluta</option>
+                    <option value="reklamera">Reklamera</option>
                 </select>
                     <label for="rubrik">Rubrik:</label>
                     <input name="title" type="text" id="rubrik">
-                    <label for="Fråga">Fråga</label>
+                    <label for="qa">Fråga</label>
                     <input name="question" type="text" id="qa" size="50">
             </fieldset>
             <fieldset>
@@ -33,6 +33,5 @@
              </fieldset>
             <button type="submit">Skicka in</button>
         </form>
-        
     </body>
 </html>
