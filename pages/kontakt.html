@@ -12,5 +12,27 @@
             <a href="../pages/presentation.html"><li>Presentation</li></a>
             <a href="../pages/kontakt.html"><li>Kontakt</li></a>
         </ul>
-        </body>
+        <form action="http://webproduction.standout.se/form.php" method="post">
+            <fieldset>
+                <legend>Fråga</legend>
+                <p>Ärendetyp</p>
+                <select name="errand">
+                    <option value="v1">Fråga</option>
+                    <option value="v2">Avsluta</option>
+                    <option value="v3">Reklamera</option>
+                </select>
+                    <label for="rubrik">Rubrik:</label>
+                    <input name="title" type="text" id="rubrik">
+                    <label for="Fråga">Fråga</label>
+                    <input name="question" type="text" id="qa" size="50">
+            </fieldset>
+            <fieldset>
+                <legend>Kontaktväg</legend>
+                <input type="checkbox" name="contact[]" value="email">Mejl
+                <input type="checkbox" name="contact[]" value="tele">Telefon
+             </fieldset>
+            <button type="submit">Skicka in</button>
+        </form>
+        
+    </body>
 </html>
