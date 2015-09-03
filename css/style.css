@@ -1,4 +1,37 @@
-p 
+html, body 
 {
-    color: red;
+    height: 100%;
+}
+#container
+{
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+}
+#header
+{
+    width: 100%;
+    background-color:blue;
+    height: 20%;
+}
+
+nav
+{
+    width: 300px;
+    float: left;
+    background-color:#999;
+    height: 100%;
+}
+main
+{
+    width: 700px;
+    float: left;
+    background-color:#363;
+    height: 100%;
+}
+#footer
+{
+    width: 1000px;
+    background-color:blue;
+    height: 20%;
 }
