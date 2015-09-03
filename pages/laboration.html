@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="sv">
-    <head>
-       <meta charset="utf-8">
-        <title>Här är det jag som bestämmer</title>
-    </head>
-    <body>
-        <header>
-            <h1>Välkommen till mitt laborationscenter</h1>
-            <p>Kursbloggen!</p>
-                <nav>
-                    <ul>
-                        <li><a href="../index.html">Start</a></li>
-                        <li><a href="../pages/laboration.html">Laborationer</a></li>
-                        <li><a href="../pages/presentation.html#me1">Presentation</a></li><!--Anchor-->
-                        <li><a href="../pages/kontakt.html">Kontakt</a></li>
-                    </ul>
-                    <h2>Webbproduktion</h2>
-                    <ul>
-                        <li><a href="laboration.html#lab1">Laboration 1</a></li>
-                        <li><a href="laboration.html#lab2">Laboration 2</a></li>
-                        <li><a href="laboration.html#lab3">Laboration 3</a></li>
-                    </ul>
-                </nav>
-            <h2>Webbtekniskt Introduktion</h2>
-            <h3>Resultat</h3>
-        </header>
-        <main>
-        <table border="1"><!--table starts here-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Här är det jag som bestämmer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>Välkommen till mitt laborationscenter</h1>
+        <p>Kursbloggen!</p>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Start</a></li>
+                <li><a href="../pages/laboration.html">Laborationer</a></li>
+                <li><a href="../pages/presentation.html#me1">Presentation</a></li>
+                <!--Anchor-->
+                <li><a href="../pages/kontakt.html">Kontakt</a></li>
+            </ul>
+            <h2>Webbproduktion</h2>
+            <ul>
+                <li><a href="laboration.html#lab1">Laboration 1</a></li>
+                <li><a href="laboration.html#lab2">Laboration 2</a></li>
+                <li><a href="laboration.html#lab3">Laboration 3</a></li>
+            </ul>
+        </nav>
+        <h2>Webbtekniskt Introduktion</h2>
+        <h3>Resultat</h3>
+    </header>
+    <main>
+        <table border="1">
+            <!--table starts here-->
             <thead>
                 <tr>
                     <td>Laboration</td>
@@ -39,7 +45,7 @@
                 <tr>
                     <td colspan="4">Laborationsresultat gällande Ellen Nu</td>
                 </tr>
-                </tfoot>
+            </tfoot>
             <tbody>
                 <tr>
                     <td rowspan="3">1</td>
@@ -86,49 +92,69 @@
                 <tr>
                     <td>6</td>
                     <td>Ej påbörjad</td>
-                <td></td>
+                    <td></td>
                 </tr>
             </tbody>
         </table>
         <h2><a id="lab1">Laboration 1</a></h2>
         <p>Uppgifter:</p>
-            <ol>
-                <li>www-katalog. Check</li>
-                <li><a href="../pages/presentation.html">Ett första dokument</a></li>
-            </ol>
+        <ol>
+            <li>www-katalog. Check</li>
+            <li><a href="../pages/presentation.html">Ett första dokument</a></li>
+        </ol>
         <h2><a id="lab2">Laboration 2</a></h2>
         <p>Uppgifter:</p>
-            <dl>
-                <dt>1.4.1 Vilken är den absoluta sökvägen till filen bottom.html?</dt>
-                    <dd><p>www.server.se/bottom.html</p></dd>
-                <dt>1.4.2. Vilken är den relativa sökvägen från filen default.html till filen top.html?</dt>
-                    <dd><p>pages/top.html</p></dd>
-                <dt>1.4.3. Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>
-                    <dd><p>../../../index.html</p></dd>
-                <dt>1.4.4. Vilken är den absoluta sökvägen till filen index.html?</dt>
-                    <dd><p>www.server.se/index.html</p></dd>
-                <dt>1.4.5. Vilken är den relativa sökvägen från filen top.html till bottom.html?</dt>
-                    <dd><p>../bottom.html</p></dd>
-                <dt>1.4.6. Vilken är den relativa sökvägen från filen index.html till top.html</dt>
-                    <dd><p>html/pages/top.html</p></dd>
-            </dl>
+        <dl>
+            <dt>1.4.1 Vilken är den absoluta sökvägen till filen bottom.html?</dt>
+            <dd>
+                <p>www.server.se/bottom.html</p>
+            </dd>
+            <dt>1.4.2. Vilken är den relativa sökvägen från filen default.html till filen top.html?</dt>
+            <dd>
+                <p>pages/top.html</p>
+            </dd>
+            <dt>1.4.3. Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>
+            <dd>
+                <p>../../../index.html</p>
+            </dd>
+            <dt>1.4.4. Vilken är den absoluta sökvägen till filen index.html?</dt>
+            <dd>
+                <p>www.server.se/index.html</p>
+            </dd>
+            <dt>1.4.5. Vilken är den relativa sökvägen från filen top.html till bottom.html?</dt>
+            <dd>
+                <p>../bottom.html</p>
+            </dd>
+            <dt>1.4.6. Vilken är den relativa sökvägen från filen index.html till top.html</dt>
+            <dd>
+                <p>html/pages/top.html</p>
+            </dd>
+        </dl>
         <h2>Laboration 1.6</h2>
-            <p><a href="../pics/star.svg">Min svg-bild</a></p>
+        <p><a href="../pics/star.svg">Min svg-bild</a></p>
         <h2>Laboration 1.7</h2>
-            <p><a href="../videos/2sd.mp4">Roligt klipp</a></p><!--this is a video-->
+        <p><a href="../videos/2sd.mp4">Roligt klipp</a></p>
+        <!--this is a video-->
         <h2>Diverse länkar</h2>
-        </main>
-        <footer>
-            <dl>
-               <dt>Nyhetssida för dig som gillar teknik, vetenskap och spel!</dt>
-                    <dd><p><a href="http://feber.se">Feber</a></p></dd>
-                       <dt>Sveriges egna köp och säljmarknad</dt> 
-                    <dd><p><a href="http://www.blocket.se">Blocket</a></p></dd>
-                       <dt>Världens största webbsida för alla möjliga videoklipp</dt> 
-                    <dd><p><a href="http://www.youtube.com">Youtube</a></p></dd>
-            </dl>
+    </main>
+    <footer>
+        <dl>
+            <dt>Nyhetssida för dig som gillar teknik, vetenskap och spel!</dt>
+            <dd>
+                <p><a href="http://feber.se">Feber</a></p>
+            </dd>
+            <dt>Sveriges egna köp och säljmarknad</dt>
+            <dd>
+                <p><a href="http://www.blocket.se">Blocket</a></p>
+            </dd>
+            <dt>Världens största webbsida för alla möjliga videoklipp</dt>
+            <dd>
+                <p><a href="http://www.youtube.com">Youtube</a></p>
+            </dd>
+        </dl>
         <h2>Min fina logo</h2>
-            <p><a href="../pics/logo.png">Bild</a></p>
-        </footer>
-    </body>
+        <p><a href="../pics/logo.png">Bild</a></p>
+    </footer>
+</body>
+
 </html>
