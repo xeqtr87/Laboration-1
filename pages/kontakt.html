@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="sv">
-    <head>
-       <meta charset="utf-8">
-        <title>Här är det jag som bestämmer</title>
-    </head>
-    <body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Här är det jag som bestämmer</title>
+</head>
+
+<body>
+    <header>
         <h1>Här kan ni kontakta mig</h1>
+    </header>
+    <nav>
         <ul>
             <li><a href="../index.html">Start</a></li>
             <li><a href="../pages/laboration.html">Laborationer</a></li>
             <li><a href="../pages/presentation.html">Presentation</a></li>
             <li><a href="../pages/kontakt.html">Kontakt</a></li>
         </ul>
+    </nav>
+    <main>
         <form action="http://webproduction.standout.se/form.php" method="post">
             <fieldset>
                 <legend>Fråga</legend>
@@ -21,17 +28,22 @@
                     <option value="avsluta">Avsluta</option>
                     <option value="reklamera">Reklamera</option>
                 </select>
-                    <label for="rubrik">Rubrik:</label>
-                    <input name="title" type="text" id="rubrik">
-                    <label for="qa">Fråga</label>
-                    <input name="question" type="text" id="qa" size="50">
+                <label for="rubrik">Rubrik:</label>
+                <input name="title" type="text" id="rubrik">
+                <label for="qa">Fråga</label>
+                <input name="question" type="text" id="qa" size="50">
             </fieldset>
             <fieldset>
                 <legend>Kontaktväg</legend>
                 <input type="checkbox" name="contact[]" value="email">Mejl
                 <input type="checkbox" name="contact[]" value="tele">Telefon
             </fieldset>
-            <button type="submit">Skicka in</button>
         </form>
-    </body>
+    </main>
+    <footer>
+        <button type="submit">Skicka in</button>
+    </footer>
+
+</body>
+
 </html>
