@@ -11,27 +11,34 @@ html, body
 #header
 {
     width: 100%;
-    background-color:blue;
-    height: 20%;
+    height: 200px;
+    
 }
-
 nav
 {
     width: 300px;
     float: left;
-    background-color:#999;
-    height: 100%;
+    background-color: red;
 }
 main
 {
     width: 700px;
     float: left;
-    background-color:#363;
-    height: 100%;
+    background-color: #2A4E6E;
 }
 #footer
 {
     width: 1000px;
-    background-color:blue;
-    height: 20%;
+    height: 20px;
+    background-color: #2A4E6E;
+    clear: left;
+}
+#wrapper
+{
+    background-color: #2A4E6E;
+}
+h1
+{
+    margin: 0 ;
+    padding: 0 ;
 }
