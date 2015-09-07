@@ -40,11 +40,11 @@ nav
 {
     float: right;
     color: black;
-    background-color: blue;
+    background-color: #3C3627;
     margin: 10px 10px 10px 10px;
     border-style: groove;
     border-spacing: 2px;
-    width: 290px;
+    width: 300px;
 }
 main
 {
@@ -57,14 +57,23 @@ h1
 {
     margin: 0 ;
     padding: 20px ;
+    text-align: center;
 }
 
 table
 {
     color: white;
     border-width: 3px;
-    background-color: #52E396;
+    background-color: gray;
     margin: 0 auto;
+    border-style: solid;
+    
+}
+table td
+{
+  border-style: solid;
+  border-color: black;
+  text-align: center;
 }
 #footer
 {
@@ -77,8 +86,10 @@ table
 }
 form
 {
-    background-color: white;
+    background-color: #4B6B74;
     float: right;
+    width: 730px;
+    border-style: groove;
 }
 h2
 {
