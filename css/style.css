@@ -1,3 +1,12 @@
+/*
+Background color: #2A4E6E
+Main text color: #B3A394
+Nav/sidebar color: #0F414F
+Nav/links text color: #D4BB6A
+Table background color: #384C65
+Table text color: #5399AB
+*/
+
 html, body 
 {
     height: 100%;
@@ -5,20 +14,16 @@ html, body
 #wrapper
 {
     background-color: #2A4E6E;
-    border-style: outset;
 }
 #container
 {
     margin: 0 auto;
     width: 1000px;
     overflow: hidden;
-
 }
 #header
 {
     width: 100%;
-   
-    
 }
 a:link, a:visited
 {
@@ -27,10 +32,10 @@ a:link, a:visited
 
 a:hover
 {
-text-decoration: underline;
-color: #D2D284;
-background-color: #507D7F;
-font-weight: bold;
+    text-decoration: underline;
+    color: #D2D28;
+    background-color: #507D7F;
+    font-weight: bold;
 }
 a:active
 {
@@ -51,7 +56,7 @@ nav ul li a
   background-color: #0F414F;
   padding-left: 10px;
 }
-nav ul li a.active
+.active
 {
     color: #D2D284;
     background-color: #507D7F;
@@ -84,13 +89,6 @@ main
     background-color: #2A4E6E;
     padding-left: 80px;
 }
-h1
-{
-    margin: 0 ;
-    padding: 20px ;
-    text-align: center;
-}
-
 table
 {
     color: #5399AB;
@@ -127,15 +125,62 @@ form
     width: 730px;
     border-style: groove;
 }
+h1
+{
+    margin: 0 ;
+    padding: 20px ;
+    text-align: center;
+    font-weight: 700;
+   
+    
+}
 h2
 {
     text-align: center;
+    
+    
+}
+h3
+{
+    color: black;
+    margin: 20px;
+}
+h5
+{
+    font-weight: bolder;
+    font-size: 20px;
 }
 .right
 {
     float: right;
 }
-.labb
+.right:hover
 {
-    
+    background-color:#2A4E6E;
+}
+.imglink:hover
+{
+    background-color:#2A4E6E;
+}
+.labb p
+{
+    color: #B3A394;
+}    
+div
+{
+    color: #B3A394;
+    font-family: "Arial", Times, serif;
+    font-size: medium;
+}
+.slink:hover
+{
+    background-color: #0F414F; 
+}
+#lab1:hover, #lab2:hover
+{
+    background-color: #2A4E6E;
+}
+#lab1:active, #lab2:active
+{
+    color: #B3A394;
 }
