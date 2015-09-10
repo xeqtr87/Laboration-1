@@ -10,46 +10,46 @@
 
 <body>
     <div id="wrapper">
-    <div id="container">
-        <div id="header">
-        <h1>Kontakta mig!</h1>
-        <a href="../pics/logo.png"><img src="../pics/logo.png" alt="logo" width="100" height="100" title="Logo"></a>
+        <div id="container">
+            <div id="header">
+                <h1>Kontakta mig!</h1>
+                <a href="../pics/logo.png"><img src="../pics/logo.png" alt="logo" width="100" height="100" title="Logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Start</a></li>
+                    <li><a href="../pages/laboration.html">Laborationer</a></li>
+                    <li><a href="../pages/presentation.html">Presentation</a></li>
+                    <li><a href="../pages/kontakt.html" class="active">Kontakt</a></li>
+                </ul>
+            </nav>
+            <form action="http://webproduction.standout.se/form.php" method="post">
+                <fieldset>
+                    <legend>Fråga</legend>
+                    <p>Ärendetyp</p>
+                    <select name="errand">
+                        <option value="fråga">Fråga</option>
+                        <option value="avsluta">Avsluta</option>
+                        <option value="reklamera">Reklamera</option>
+                    </select>
+                    <label for="rubrik">Rubrik:</label>
+                    <input name="title" type="text" id="rubrik">
+                    <p>
+                        <label for="qa">Fråga</label>
+                    </p>
+                    <input name="question" type="text" id="qa" size="50">
+                </fieldset>
+                <fieldset>
+                    <legend>Kontaktväg</legend>
+                    <input type="checkbox" name="contact[]" value="email">Mejl
+                    <input type="checkbox" name="contact[]" value="tele">Telefon
+                </fieldset>
+            </form>
         </div>
-    <nav>
-        <ul>
-            <li><a href="../index.html">Start</a></li>
-            <li><a href="../pages/laboration.html">Laborationer</a></li>
-            <li><a href="../pages/presentation.html">Presentation</a></li>
-            <li><a href="../pages/kontakt.html"class="active">Kontakt</a></li>
-        </ul>
-    </nav>
-        <form action="http://webproduction.standout.se/form.php" method="post">
-            <fieldset>
-                <legend>Fråga</legend>
-                <p>Ärendetyp</p>
-                <select name="errand">
-                    <option value="fråga">Fråga</option>
-                    <option value="avsluta">Avsluta</option>
-                    <option value="reklamera">Reklamera</option>
-                </select>
-                <label for="rubrik">Rubrik:</label>
-                <input name="title" type="text" id="rubrik">
-                <p><label for="qa">Fråga</label></p>
-                <input name="question" type="text" id="qa" size="50">
-            </fieldset>
-            <fieldset>
-                <legend>Kontaktväg</legend>
-                <input type="checkbox" name="contact[]" value="email">Mejl
-                <input type="checkbox" name="contact[]" value="tele">Telefon
-            </fieldset>
-        </form>
+        <div id="footer">
+            <button type="submit">Skicka in</button>
         </div>
-   <div id="footer">
-        <button type="submit">Skicka in</button>
     </div>
-   
-    
-</div>
 </body>
 
 </html>
