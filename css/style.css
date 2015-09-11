@@ -54,7 +54,8 @@ nav {
 nav ul li a {
     display: block;
     background-color: #0F414F;
-    padding-left: 10px;
+    padding-left: 30px;
+    
 }
 
 .active {

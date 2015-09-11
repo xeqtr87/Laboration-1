@@ -1,0 +1,41 @@
+.sprite
+{
+width:24px;
+height:24px;
+background:url("pics/sprite.png");
+background-repeat: no-repeat;
+display: block;
+
+}
+.home
+{
+    background-position: 2px -49px;
+}
+.hammer
+{
+    background-position: 2px -145px;
+}
+.pres
+{
+     background-position: 2px -240px;
+}
+.contact
+{
+     background-position: 2px -335px
+}
+.home:hover
+{
+    background-position: 2px -1px;
+}
+.hammer:hover
+{
+    background-position: 2px -97px;
+}
+.pres:hover
+{
+    background-position: 2px -192px;
+}
+.contact:hover
+{
+    background-position: 2px -287px;
+}
