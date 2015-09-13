@@ -1,41 +1,33 @@
-.sprite
-{
-width:24px;
-height:24px;
-background:url("pics/sprite.png");
-background-repeat: no-repeat;
-display: block;
+html,
+body {
+    height: 100%;
+}
+#wrapper {
+    background-color: #2A4E6E;
+}
+#header {
+    width: 100%;
+}
 
+nav {
+    width:100%;
+    background-color: #0F414F;
+    border-style: groove;
+    border-spacing: 2px;
+    overflow: hidden;
 }
-.home
-{
-    background-position: 2px -49px;
+main {
+    width: 100%;
+    background-color: #2A4E6E;
+    
 }
-.hammer
-{
-    background-position: 2px -145px;
-}
-.pres
-{
-     background-position: 2px -240px;
-}
-.contact
-{
-     background-position: 2px -335px
-}
-.home:hover
-{
-    background-position: 2px -1px;
-}
-.hammer:hover
-{
-    background-position: 2px -97px;
-}
-.pres:hover
-{
-    background-position: 2px -192px;
-}
-.contact:hover
-{
-    background-position: 2px -287px;
+#sidebar {
+   
+    color: #787747;
+    background-color: #0F414F;
+    margin: 10px 10px;
+    border-style: groove;
+    border-spacing: 2px;
+    width: 100%;
+    text-align: center;
 }

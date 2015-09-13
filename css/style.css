@@ -18,7 +18,7 @@ body {
 
 #container {
     margin: 0 auto;
-    width: 1000px;
+    min-width: 1000px;
     overflow: hidden;
 }
 
@@ -43,7 +43,7 @@ a:active {
 }
 
 nav {
-    width: 200px;
+    width: 15%;
     float: left;
     background-color: #0F414F;
     border-style: groove;
@@ -54,8 +54,7 @@ nav {
 nav ul li a {
     display: block;
     background-color: #0F414F;
-    padding-left: 30px;
-    
+    padding-left: 12%;
 }
 
 .active {
@@ -66,29 +65,26 @@ nav ul li a {
 ul {
     list-style: none;
     display: block;
-    padding: 3px;
+    padding: 3%;
 }
 
 #sidebar {
     float: right;
     color: #787747;
     background-color: #0F414F;
-    margin: 10px 10px;
+    margin: 0% 5%;
     border-style: groove;
     border-spacing: 2px;
-    width: 200px;
+    width: 18%;
     text-align: center;
 }
 
-.present {
-    height: 220px;
-}
 
 main {
-    width: 400px;
+    width: 40%;
     float: left;
     background-color: #2A4E6E;
-    padding-left: 80px;
+    padding-left: 15%;
 }
 
 table {
@@ -113,24 +109,25 @@ tfoot {
 }
 
 #footer {
-    width: 960px;
+    width: 100%;
     background-color: #2A4E6E;
     clear: left;
     margin: 0 auto;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 1%;
 }
 
 form {
     background-color: #4B6B74;
-    float: right;
-    width: 730px;
+    float: left;
+    width: 50%;
+    margin-left: 5%;
     border-style: groove;
 }
 
 h1 {
     margin: 0;
-    padding: 20px;
+    padding: 2%;
     text-align: center;
     font-weight: 700;
 }
@@ -183,4 +180,44 @@ div {
 #lab1:active,
 #lab2:active {
     color: #B3A394;
+}
+
+.sprite {
+    width: 24px;
+    height: 24px;
+    background: url("pics/sprite.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.home {
+    background-position: 2px -49px;
+}
+
+.hammer {
+    background-position: 2px -145px;
+}
+
+.pres {
+    background-position: 2px -240px;
+}
+
+.contact {
+    background-position: 2px -335px
+}
+
+.home:hover {
+    background-position: 2px -1px;
+}
+
+.hammer:hover {
+    background-position: 2px -97px;
+}
+
+.pres:hover {
+    background-position: 2px -192px;
+}
+
+.contact:hover {
+    background-position: 2px -287px;
 }
