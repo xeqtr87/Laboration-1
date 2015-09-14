@@ -2,13 +2,21 @@ html,
 body {
     height: 100%;
 }
-#wrapper {
-    background-color: #2A4E6E;
+#wrapper
+{
     width: 100%;
-    
+    background-color: #2A4E6E;
+}
+#container {
+    margin: 0 auto;
+    width: 90%;
+    /*min-width: 90%;*/
+    overflow: hidden;
+    background-color: #2A4E6E;
 }
 #header {
     width: 100%;
+    
 }
 
 nav {
@@ -45,15 +53,23 @@ ul {
     list-style: none;
     display: block;
     padding: 0%;
-   
+   /*margin-left: -65px;*/
 }
 
 main {
-    width: 100%;
+    width: 90%;
     background-color: #2A4E6E;
     padding-left: 0%;
-    min-width: 430px;
+    /*min-width: 350px;*/
     
+    
+}
+table {
+    color: #5399AB;
+    background-color: #384C65;
+    /*width: 80%;*/
+    border: 1px outset #087884;
+    margin: 0;
 }
 
 h1 {
