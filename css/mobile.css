@@ -4,30 +4,130 @@ body {
 }
 #wrapper {
     background-color: #2A4E6E;
+    width: 100%;
+    
 }
 #header {
     width: 100%;
 }
 
 nav {
-    width:100%;
-    background-color: #0F414F;
-    border-style: groove;
-    border-spacing: 2px;
+    color: #787747;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
     overflow: hidden;
+    margin-left: -7px;
 }
+
+.menulink
+{
+    display: inline-block;
+    font-size: 3.5vw;
+}
+nav ul li
+{
+    display: inline-block;
+}
+.labblink
+{
+    margin-right: -140px;
+    margin-left: -112px;
+}
+.sprite {
+    width: 24px;
+    height: 24px;
+    background: url("pics/sprite.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+ul {
+    list-style: none;
+    display: block;
+    padding: 0%;
+   
+}
+
 main {
     width: 100%;
     background-color: #2A4E6E;
+    padding-left: 0%;
+    min-width: 430px;
     
+}
+
+h1 {
+    margin: 0;
+    padding: 2%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 7vw;
+}
+
+h2 {
+    text-align: center;
+    font-size: 5vw;
+}
+h3 {
+    color: black;
+    margin: 1%;
+    text-align: center;
+    font-size: 5vw;
+    
+}
+
+h4 {
+    font-weight: bolder;
+    font-size: 20px;
+    font-size: 4vw;
+}
+div {
+    color: #B3A394;
+    font-family: "Arial", Times, serif;
+    font-size: 4vw;
 }
 #sidebar {
    
     color: #787747;
-    background-color: #0F414F;
-    margin: 10px 10px;
-    border-style: groove;
-    border-spacing: 2px;
+    margin: 10px;
     width: 100%;
     text-align: center;
+    overflow: hidden;
+    margin-right: 3px;
+    padding-right: 0px;
+}
+.home {
+    background-position: 2px -49px;
+}
+
+.hammer {
+    background-position: 2px -145px;
+}
+
+.pres {
+    background-position: 2px -240px;
+}
+
+.contact {
+    background-position: 2px -335px
+}
+
+.home:hover {
+    background-position: 2px -1px;
+}
+
+.hammer:hover {
+    background-position: 2px -97px;
+}
+
+.pres:hover {
+    background-position: 2px -192px;
+}
+
+.contact:hover {
+    background-position: 2px -287px;
+}
+.T1
+{
+    width: 100%;
 }

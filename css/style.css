@@ -10,6 +10,7 @@ Table text color: #5399AB
 html,
 body {
     height: 100%;
+    width: 100%;
 }
 
 #wrapper {
@@ -18,7 +19,7 @@ body {
 
 #container {
     margin: 0 auto;
-    min-width: 1000px;
+    min-width: 100%;
     overflow: hidden;
 }
 
@@ -44,6 +45,7 @@ a:active {
 
 nav {
     width: 15%;
+    min-width: 170px;
     float: left;
     background-color: #0F414F;
     border-style: groove;
@@ -54,13 +56,9 @@ nav {
 nav ul li a {
     display: block;
     background-color: #0F414F;
-    padding-left: 12%;
+    padding-left: 30px;
 }
 
-.active {
-    color: #D2D284;
-    background-color: #507D7F;
-}
 
 ul {
     list-style: none;
@@ -71,20 +69,20 @@ ul {
 #sidebar {
     float: right;
     color: #787747;
-    background-color: #0F414F;
     margin: 0% 5%;
-    border-style: groove;
-    border-spacing: 2px;
     width: 18%;
+    min-width: 250px;
     text-align: center;
 }
 
 
 main {
     width: 40%;
+    min-width: 301px;
     float: left;
     background-color: #2A4E6E;
     padding-left: 15%;
+    
 }
 
 table {
@@ -92,6 +90,10 @@ table {
     background-color: #384C65;
     margin: 0px 35px;
     border: 1px outset #087884;
+}
+.T1
+{
+    min-width: 400px;
 }
 
 table td {
@@ -138,7 +140,7 @@ h2 {
 
 h3 {
     color: black;
-    margin: 20px;
+    margin: 5%;
 }
 
 h4 {
@@ -172,6 +174,12 @@ div {
     background-color: #0F414F;
 }
 
+.labb
+{
+    border-style: groove;
+    border-spacing: 2px;
+    background-color: #0F414F;
+}
 #lab1:hover,
 #lab2:hover {
     background-color: #2A4E6E;
