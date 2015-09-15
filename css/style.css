@@ -62,6 +62,7 @@ nav ul li a {
     display: block;
     background-color: #0F414F;
     padding-left: 30px;
+  
 }
 
 
@@ -161,10 +162,16 @@ h4 {
     background-color: #2A4E6E;
 }
 
+.present:hover {
+    background-color: #2A4E6E;
+}
 .imglink:hover {
     background-color: #2A4E6E;
 }
-
+.star:hover
+{
+    background-color: #2A4E6E;
+}
 .labb p {
     color: #B3A394;
 }

@@ -22,25 +22,29 @@ body {
 nav {
     color: #787747;
     /*margin: 10px;*/
-    width: 97%;
+    width: 98%;
     text-align: center;
     overflow: hidden;
     
+}
+nav ul li a {
+    display: block;
+    background-color: #0F414F;
+    padding-left: 30px;
+    padding-right: 340px;
 }
 
 .menulink
 {
     display: inline-block;
-    font-size: 3.5vw;
+    
 }
-nav ul li
-{
-    display: inline-block;
-}
+
 .labblink
 {
     margin-right: -140px;
-    margin-left: -112px;
+    margin-left: -10px;
+    
 }
 .sprite {
     width: 24px;
@@ -67,7 +71,7 @@ main {
 table {
     color: #5399AB;
     background-color: #384C65;
-    /*width: 80%;*/
+    width: 80%;
     border: 1px outset #087884;
     margin: 0;
 }
@@ -106,7 +110,7 @@ div {
    
     color: #787747;
     margin: 5px;
-    width: 97%;
+    width: 95%;
     text-align: center;
     overflow: hidden;
 }
@@ -141,9 +145,16 @@ div {
 .contact:hover {
     background-position: 2px -287px;
 }
+
 .imglink img
 {
   width: 10%;
   height: 10%;
   
+}
+form
+{
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 5px;
 }
