@@ -25,7 +25,7 @@
                     <li><a href="../pages/kontakt.html" class="active sprite contact">Kontakt</a></li>
                 </ul>
             </nav>
-            <div class="form">
+            <div>
             <form action="http://webproduction.standout.se/form.php" method="post">
                 <fieldset>
                     <legend>Fråga</legend>
@@ -35,7 +35,7 @@
                         <option value="avsluta">Avsluta</option>
                         <option value="reklamera">Reklamera</option>
                     </select>
-                    <label for="rubrik">Rubrik:</label>
+                    <p><label for="rubrik">Rubrik:</label></p>
                     <input name="title" type="text" id="rubrik">
                     <p>
                         <label for="qa">Fråga</label>
@@ -44,8 +44,10 @@
                 </fieldset>
                 <fieldset>
                     <legend>Kontaktväg</legend>
-                    <input type="checkbox" name="contact[]" value="email">Mejl
-                    <input type="checkbox" name="contact[]" value="tele">Telefon
+                    <div class="checkbox">
+                    <label><input type="checkbox" name="contact[]" value="email">Mejl</label>
+                    <label><input type="checkbox" name="contact[]" value="tele">Telefon</label>
+                    </div>
                 </fieldset>
             </form>
             </div>
