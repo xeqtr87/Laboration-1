@@ -34,14 +34,17 @@ body {
 
 a:link,
 a:visited {
-    color: #D4BB6A;
+    color: #D4BB6A
+    
 }
 
 a:hover {
     text-decoration: underline;
     color: #D2D28;
-    background-color: #507D7F;
+    /*background-color: #507D7F;*/
     font-weight: bold;
+    
+
 }
 
 a:active {

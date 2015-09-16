@@ -21,14 +21,13 @@ body {
 
 nav {
     color: #787747;
-    /*margin: 10px;*/
     width: 98%;
     text-align: center;
     overflow: hidden;
     
 }
 nav ul li a {
-    display: block;
+    /*display: block;*/
     background-color: #0F414F;
     padding-left: 30px;
     padding-right: 340px;
@@ -54,13 +53,6 @@ nav ul li a {
     white-space: pre;
 }
 
-/*
-.labblink ul li
-{
-    text-align: center;
-    color: yellow;
-}
-*/
 .sprite {
     width: 24px;
     height: 24px;
@@ -72,14 +64,14 @@ ul {
     list-style: none;
     display: block;
     padding: 0%;
-   /*margin-left: -65px;*/
+   
 }
 
 main {
     width: 90%;
     background-color: #2A4E6E;
     padding-left: 0%;
-    /*min-width: 350px;*/
+    
     
     
 }
