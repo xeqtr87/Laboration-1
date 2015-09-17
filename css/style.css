@@ -32,24 +32,26 @@ body {
     
 }
 
-a:link,
-a:visited {
+a{
     color: #D4BB6A
     
+}
+a:active
+{
+    color: red;
 }
 
 a:hover {
     text-decoration: underline;
     color: #D2D28;
-    /*background-color: #507D7F;*/
     font-weight: bold;
-    
-
 }
 
-a:active {
+.active
+{
     color: red;
 }
+
 
 nav {
     width: 15%;
@@ -64,9 +66,9 @@ nav {
 
 nav ul li a {
     display: block;
-    background-color: #0F414F;
+    /*background-color: #0F414F;*/
     padding-left: 30px;
-  
+   
 }
 
 
@@ -136,6 +138,7 @@ form {
     width: 50%;
     margin-left: 5%;
     border-style: groove;
+    min-width: 150px;
 }
 
 h1 {
