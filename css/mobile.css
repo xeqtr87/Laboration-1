@@ -101,7 +101,7 @@ nav ul li a {
     background-position: 2px -287px;
 }
 
-
+    
                                 /*Main content/text style*/
 main {
     width: 90%;
@@ -146,7 +146,7 @@ h4 {
 div {
     color: #B3A394;
     font-family: "Arial", Times, serif;
-    font-size: 4vw;
+    font-size: 4vw;                 /* CSS3*/
 }
 
 #sidebar {
