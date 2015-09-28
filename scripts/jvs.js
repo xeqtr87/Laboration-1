@@ -19,23 +19,37 @@ console.log(apa("giraff","noshörning"));
 console.log(apa("idiot","åsna"));
 console.log(apa("titanic","clown"));
 
+
+
+
+
+
+var loop=true
 var theX = Math.floor( Math.random() * 101)+1;
 {
     console.log(theX);
 }
-var gissaDNumber = prompt ("Gissa numret!")
+
+while (loop){                   
+var gissaDNumber = prompt ("Gissa ett nummer mellan 1 - 100!");
+    if(gissaDNumber == theX){
+    alert("Rätt");
+    loop=false;
+    }
+    
+    if( gissaDNumber > theX){
+    prompt("Your number " +gissaDNumber+ " is to high try again")
+        
+    }
+    
+    if(gissaDNumber < theX){
+    prompt("Your number " +gissaDNumber+ " is to low try again")
+        
+    }
+} 
 
 
+    
+    
+    
 
-if (gissaDNumber < theX)
-{
-    alert("fail, number " +gissaDNumber+ " is too low");
-}
-else if (gissaDNumber > theX)
-{
-    alert("fail, number "  +gissaDNumber+ " is to high");
-}
-else
-{
-    alert("GZ, the number " +gissaDNumber+ " is correct! You won the internet!")
-}
