@@ -1,4 +1,4 @@
-console.log("Hello World");
+/*console.log("Hello World");
 alert("Rad1\nRad2");
 
 function medel(mt1, mt2, mt3, mt4) {
@@ -22,7 +22,7 @@ console.log(apa("titanic", "clown"));
 
 var sten = true
 while (sten) {
-    var meny = prompt("0. Exit\n\n1. Fahrenheit to Celsius\n2. Celsius to Fahrenheit\n3. Guess the number");
+    var meny = prompt("0. Exit\n\n1. Fahrenheit to Celsius\n2. Celsius to Fahrenheit\n3. Guess the number\n4. Convert to capitol");
     switch (meny)
     {
         case '0':
@@ -43,36 +43,31 @@ while (sten) {
             var gissaDNumber = prompt("Gissa på ett nummer mellan 1 - 100!");
             guessNumber();
             break;
-        default:
+            default:
             console.log("Chose wisely");
     }
     
 }
 
 //Moment Fahrenheit & Celsius
+{
 
 function kamel(fahrenheit) {
-    var fahrAnswer = (fahrenheit * (9 / 5) + 32);
+    var fahrAnswer =  (fahrenheit * (9 / 5) + 32);
 
-    console.log(fahrAnswer);
-    return fahrAnswer;
+    console.log(Math.round(fahrAnswer));
+    return Math.round(fahrAnswer);
 }
 
 function lama(celsius) {
     var celAnswer = ((celsius - 32) * (5 / 9));
 
-    console.log(celAnswer.toFixed(2));
-    return celAnswer.toFixed(2);
+    console.log(Math.round(celAnswer.toFixed(2)));
+    return Math.round(celAnswer.toFixed(2));
 }
-
-
-
-
-
-
-
-
+}
 // Uppgift 3
+{
 function guessNumber() {
 
     var count = 1;
@@ -98,4 +93,50 @@ function guessNumber() {
         }
         count++;
     }
+}
+}
+
+
+
+
+
+*/
+
+//Uppgift 5
+
+
+/*
+var TypeText = prompt("Skriv en text")
+var HashT = ""
+for (var i = 0; i < TypeText.length; i++) {
+    //    console.log("The character at " +i+ " is " + TypeText.charAt(i) );
+    if (TypeText[i].toUpperCase() === 'A') {
+        HashT += "#"
+    }
+    else if (TypeText[i] === TypeText[i].toUpperCase())
+    {
+        HashT += TypeText[i].toLowerCase()
+    }
+    else if (TypeText[i] === TypeText[i].toLowerCase())
+    {
+        HashT += TypeText[i].toUpperCase()
+    }
+    else {
+        HashT += TypeText[i]
+    }
+}
+console.log(HashT);
+
+*/
+
+//Uppgift 6
+
+var aSquare = prompt("Ange längden på första katetetern")
+var bSquare = prompt("Ange längden på andra katetern")
+var aAndb = Math.pow(aSquare, 2) + Math.pow(bSquare, 2);
+
+{
+console.log(aAndb);
+console.log(Math.round(Math.sqrt(aAndb)));
+
 }
