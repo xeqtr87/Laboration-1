@@ -130,7 +130,9 @@ console.log(HashT);
 */
 
 //Uppgift 6
-
+/*
+function triangel ()
+{
 var aSquare = prompt("Ange längden på första katetetern")
 var bSquare = prompt("Ange längden på andra katetern")
 var aAndb = Math.pow(aSquare, 2) + Math.pow(bSquare, 2);
@@ -139,4 +141,27 @@ var aAndb = Math.pow(aSquare, 2) + Math.pow(bSquare, 2);
 console.log(aAndb);
 console.log(Math.round(Math.sqrt(aAndb)));
 
+}
+}
+*/
+
+//uppgift 7
+console.log(tentamen());
+
+function tentamen() {
+    var medelV = 0;
+    var myArray = [10, 20, 30, 40, 50];
+    console.log(myArray); 
+        for (var i = 0; i < myArray.length; i++) {
+            medelV += myArray[i];
+        }
+        var summa = (medelV / myArray.length)
+    console.log(summa)
+    myArray = myArray.sort(function(a, z) {
+        return a - z;
+    })
+    var minimum = myArray[0]
+    var maximum = myArray[myArray.length - 1]
+    var myFinalArray = [minimum, summa, maximum]
+    return myFinalArray;
 }
