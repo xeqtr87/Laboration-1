@@ -146,22 +146,142 @@ console.log(Math.round(Math.sqrt(aAndb)));
 */
 
 //uppgift 7
+/*
 console.log(tentamen());
 
 function tentamen() {
     var medelV = 0;
-    var myArray = [10, 20, 30, 40, 50];
+    var myArray = [10,2,89,9,65,13,3];
     console.log(myArray); 
-        for (var i = 0; i < myArray.length; i++) {
-            medelV += myArray[i];
-        }
-        var summa = (medelV / myArray.length)
+    for (var i = 0; i < myArray.length; i++) {
+        medelV += myArray[i];
+    }
+    var summa = (medelV / myArray.length)
     console.log(summa)
     myArray = myArray.sort(function(a, z) {
         return a - z;
     })
     var minimum = myArray[0]
     var maximum = myArray[myArray.length - 1]
-    var myFinalArray = [minimum, summa, maximum]
+    var myFinalArray = [Math.round(summa), maximum, minimum]
     return myFinalArray;
 }
+*/
+
+
+
+//månad
+var monthQ=true
+
+while (monthQ) 
+{
+var month = prompt ("Vilken månad fyller du år ?(1-12)")
+
+    if (month <= 12)
+    {
+    console.log(month);
+    monthQ=false;
+    }
+   
+
+}
+
+var userday = prompt ("Vilken dag fyller du år")
+console.log(userday);
+
+var usermonth = (month-1);
+console.log(usermonth);
+
+//1 dag i millisekunder
+var oneDay=(1000*60*60*24)
+console.log(oneDay)
+
+//Millisecs uptodate
+var todayMilli = Date.now();
+console.log(todayMilli+ " angivet datum i millisekunder")
+
+
+
+//dagens datum
+var today = new Date();
+console.log(today);
+
+//nuvarande månad
+var thismonth = today.getUTCMonth();
+
+//nuvarande år
+/*
+var year = today.getFullYear();
+console.log(year);
+*/
+//exec månad/dag till WD/MM/DD/YY GMT+ ..
+
+
+var year=""
+
+if (thismonth >= usermonth) {
+    
+    // Oktober 
+    if (today > userday) {
+        alert("året är 2016")
+        year=today.getFullYear()+1
+    }
+    else
+    {
+        alert("året är 2015")
+        year=today.getFullYear()
+    }
+    
+}
+else {
+    alert("året är 2015")
+    year=today.getFullYear()
+}
+var birthday = new Date(year ,usermonth, userday);
+console.log(birthday);
+
+var Bday = Date.parse(birthday)
+console.log(Bday+ " födelsedagen")
+
+
+
+var mellanskillnad = Bday - todayMilli
+console.log(mellanskillnad+ " mellanskillnad")
+
+var convertion = mellanskillnad/oneDay
+console.log(Math.round(convertion));
+
+
+/*
+
+
+if (newmonth < thismonth)
+console.log("Du har redan fyllt")
+alert("Du har redan fyllt år!")
+
+
+
+
+
+
+
+
+
+
+
+var copy = new Date();
+copy.setTime(birthday.getTime());
+console.log(copy);
+
+
+;
+
+
+
+
+
+
+//millisecs to next BDAY
+var Bday = Date.parse(copy);
+console.log(Bday+ " födelsedag");
+*/
