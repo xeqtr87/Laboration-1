@@ -1,8 +1,8 @@
     var items = 
     [
-        ["förnamn", "efternamn", "telefon"],//element 1
-        ["Haris", "kajs", "tyst"],//element 2
-        ["lte2", "lte3", "lte3"],//element 3 i varje array
+        ["Förnamn", "Efternamn", "Telefon"],//element 1
+        ["Haris", "Kljajic", "7716"],//element 2
+        ["Mats", "Loock", "7714"],//element 3 i varje array
         
         
     ]
