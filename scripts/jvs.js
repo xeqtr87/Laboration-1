@@ -167,6 +167,7 @@ function tentamen() {
     return myFinalArray;
 }
 */
+/*
 
 
 
@@ -209,14 +210,6 @@ console.log(today);
 //nuvarande månad
 var thismonth = today.getUTCMonth();
 
-//nuvarande år
-/*
-var year = today.getFullYear();
-console.log(year);
-*/
-//exec månad/dag till WD/MM/DD/YY GMT+ ..
-
-
 var year=""
 
 if (thismonth >= usermonth) {
@@ -243,45 +236,62 @@ console.log(birthday);
 var Bday = Date.parse(birthday)
 console.log(Bday+ " födelsedagen")
 
-
-
 var mellanskillnad = Bday - todayMilli
 console.log(mellanskillnad+ " mellanskillnad")
 
 var convertion = mellanskillnad/oneDay
 console.log(Math.round(convertion));
 
-
-/*
-
-
-if (newmonth < thismonth)
-console.log("Du har redan fyllt")
-alert("Du har redan fyllt år!")
-
-
-
-
-
-
-
-
-
-
-
 var copy = new Date();
 copy.setTime(birthday.getTime());
 console.log(copy);
 
 
-;
-
-
-
-
-
-
-//millisecs to next BDAY
-var Bday = Date.parse(copy);
-console.log(Bday+ " födelsedag");
+newContent()
+function newContent()
+{
+alert("load new content");
+document.open();
+document.write("<h1>Out with the old - in with the new!</h1>");
+document.close();
+}
 */
+
+    var items = 
+    [
+        ["förnamn", "efternamn", "telefon"],//element 1
+        ["Haris", "kajs", "tyst"],//element 2
+        ["lte2", "lte3", "lte3"],//element 3 i varje array
+        
+        
+    ]
+    
+    hejsan(items)
+
+function hejsan(cell) {
+    document.write("<table>")
+    for (var i = 0; i < items.length; i++) { //för varje array i++ betyder att den plussar på 1 till en ny "rad"
+  //      document.write("<tr>") //TR på rad 266
+        if (i % 2 )
+        document.write("<tr class='even'>")
+        else 
+        document.write("<tr class='noteven'>")
+            for (var j = 0; j < items[i].length; j++) {//detta ger mig allt i den inre arrayen 267 till 269
+            
+            if (i === 0)
+            document.write("<th>" + items[i][j] + "</th>");
+            else
+            document.write("<td>" + items[i][j] + "</td>");
+            
+        }
+        document.write("</tr>")
+    }
+    document.write("</table>")
+    }
+    
+
+
+
+
+
+
